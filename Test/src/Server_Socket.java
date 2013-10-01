@@ -16,7 +16,7 @@ public class Server_Socket {
 			OutputStream out = socket.getOutputStream(); // 아웃풋 스트림 생성
 			byte arr[] = new byte[100]; // 총 100 바이트 까지만 받을것이므로
 			in.read(arr); //in 객체로 들어온것을 리드로 해서 arr 에 저장함 반대로 생각해야함
-			System.out.println(new String(arr)); //출력
+			System.out.println(new String(arr)); //출력asdddsaasdasdasd
 			String str = "hello world"; // 
 			out.write(str.getBytes()); //out 객체로 byte 단위로 출력
 		} catch (Exception e) {  
